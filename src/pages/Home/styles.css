@@ -1,0 +1,10 @@
+main {
+  margin-top: 5rem;
+}
+
+main .lottie-wrap {
+  height: calc(100vh - 134.99px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

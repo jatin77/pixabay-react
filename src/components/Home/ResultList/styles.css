@@ -1,0 +1,19 @@
+.resultList-container {
+  margin: 0rem auto 3.5rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.resultList-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .resultList-container {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 1fr;
+  }
+}
